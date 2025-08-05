@@ -59,7 +59,7 @@ async def myid(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"Sizning chat ID: {update.message.chat.id}")
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token('8087242928:AAFh6Vr097kJegOI33aMQGjsDdzSXTlah3s').build()
+    app = ApplicationBuilder().token('8087242928:AAEp3ljXsI4XbPC_2jLS1IfuCscznRDohJY').build()
 
     app.add_handler(CommandHandler('myid', myid))
 
